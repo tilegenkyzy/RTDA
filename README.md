@@ -18,7 +18,7 @@ The system simulates a live event stream of student interactions, calculates str
 ## System Architecture & File Structure
 
 ```text
-RTDADM/
+RTDA/
 ├── config.py             # System thresholds, action types, and student metadata 
 ├── data_generator.py     # Real-time event generator simulating Moodle activity logs
 ├── stream_processor.py   # Streaming analytics module (rolling statistics & anomaly detector)
